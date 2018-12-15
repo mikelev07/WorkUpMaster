@@ -1,0 +1,149 @@
+﻿@model IEnumerable<HelpMe.Models.MessageStoreViewModel>
+@using Microsoft.AspNet.Identity
+@{
+    Layout = "~/Views/Shared/_LayoutChat.cshtml";
+}
+
+<div class="dashboard-content-container" data-simplebar>
+    <div class="dashboard-content-inner">
+
+        <div class="messages-container margin-top-0">
+
+            <div id="chatBody" class="messages-container-inner">
+
+                <!-- Messages -->
+                <div class="messages-inbox">
+                    <div class="messages-headline">
+                        <div class="input-with-icon">
+                            <input id="autocomplete-input" type="text" placeholder="Поиск">
+                            <i class="icon-material-outline-search"></i>
+                        </div>
+                    </div>
+
+                    <ul id="chatusers">
+                           @foreach (HelpMe.Models.MessageStoreViewModel d in ViewBag.Dialogs)
+                           {
+                                <li id="@d.UserTo.UserName-conid" onclick="setValue(this.id)">
+                                    <a id="@d.UserTo.UserName" href="#" onclick="loadHistory(this.id)">
+                                        <div id="@d.UserToId" class="message-avatar"><i id="@d.UserTo.UserName-status" class="status-icon status-offline"></i><img src="~/Content/Custom/images/user-avatar-small-03.jpg" alt="" /></div>
+                                        <div class="message-by">
+                                            <div class="message-by-headline">
+                                                <h5>@d.UserTo.UserName </h5>
+                                                <span id="notification">
+                                                    Нет новых сообщений
+                                                </span>
+                                            </div>
+                                            <p>Пользователь</p>
+                                        </div>
+                                    </a>
+                                </li> 
+                            }
+                        
+                        </ul>
+                </div>
+                <!-- Messages / End -->
+                <!-- Message Content -->
+                <div class="message-content">
+
+                    <div class="messages-headline">
+                        <h4>Sindy Forest</h4>
+                        <a href="#" class="message-action"><i class="icon-feather-trash-2"></i> Удалить переписку </a>
+                    </div>
+
+                    <!-- Message Content Inner -->
+                    <div id="chatroom" class="message-content-inner">
+                        @if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                if (item.UserFromId == User.Identity.GetUserId())
+                                {
+                                    <div class="message-bubble me">
+                                        <div class="message-bubble-inner">
+                                            <div class="message-avatar">
+                                                <img src="~/Content/Custom/images/user-avatar-small-01.jpg" alt="" />
+                                            </div>
+                                            <div class="message-text">
+                                                <p> @item.Description </p>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="message-bubble">
+                                        <div class="message-bubble-inner">
+                                            <div class="message-avatar">
+                                                <img src="~/Content/Custom/images/user-avatar-small-01.jpg" alt="" />
+                                            </div>
+                                            <div class="message-text">
+                                                <p> @item.Description </p>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                }
+                            }
+                        }
+                        else
+                        {
+                            <!-- Time Sign -->
+                            <div class="message-time-sign">
+                                <span>26 Сентября, 2018</span>
+                                <br /><br /><br /> <br /><br /><br />
+                                <div> Начните с кем-нибудь чат</div>
+                            </div>
+                        }
+
+                    </div>
+                    <!-- Message Content Inner / End -->
+                    <!-- Reply Area -->
+                    <div class="message-reply">
+                        <input type="hidden" id="partnerId" />
+                        <textarea id="message" cols="1" rows="1" placeholder="Напишите сообщение..." data-autoresize></textarea>
+                        <button id="sendmessage" class="button ripple-effect">Отправить</button>
+                    </div>
+                    <input id="hdId" type="hidden" />
+                    <input id="username" type="hidden" />
+                    <input id="toUserName" type="hidden" />
+                </div>
+                <!-- Message Content -->
+
+            </div>
+        </div>
+        <!-- Messages Container / End -->
+        <!-- Footer -->
+        <div class="dashboard-footer-spacer"></div>
+        <div class="small-footer margin-top-15">
+            <div class="small-footer-copyrights">
+                © 2018 <strong>Hireo</strong>. All Rights Reserved.
+            </div>
+            <ul class="footer-social-links">
+                <li>
+                    <a href="#" title="Facebook" data-tippy-placement="top">
+                        <i class="icon-brand-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Twitter" data-tippy-placement="top">
+                        <i class="icon-brand-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Google Plus" data-tippy-placement="top">
+                        <i class="icon-brand-google-plus-g"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="LinkedIn" data-tippy-placement="top">
+                        <i class="icon-brand-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <!-- Footer / End -->
+
+    </div>
+</div>

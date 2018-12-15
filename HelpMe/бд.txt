@@ -1,0 +1,12 @@
+<connectionStrings>
+   <add name="DBConnection" connectionString="data source=(localdb)\MSSQLLocalDB;Initial Catalog=userstore.mdf;Integrated Security=True;"
+providerName="System.Data.SqlClient"/>
+ </connectionStrings>
+
+
+ <connectionStrings>
+    <add name="DbConnection" connectionString="Data Source=MSK-109\SQLEXPRESS;Initial Catalog=Access_DB_HelpMe;Integrated Security=True" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+
+onclick="javascript:@(Html.Raw(String.Format("Value({0},{1})","'" + d.UserTo.UserName + "'","'" + d.UserTo.ConnectionId + "'")))"

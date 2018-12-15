@@ -1,0 +1,778 @@
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ApplicationInsights.config
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\HelpMe.dll.config
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\HelpMe.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\HelpMe.pdb
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\csc.exe
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\csc.exe.config
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\csc.rsp
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\csi.exe
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\csi.exe.config
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\csi.rsp
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.AppContext.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Console.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.IO.Compression.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.IO.Pipes.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Security.Claims.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.ValueTuple.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\vbc.exe
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\vbc.exe.config
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\vbc.rsp
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\VBCSCompiler.exe
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Antlr3.Runtime.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\EntityFramework.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\EntityFramework.SqlServer.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AI.Web.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.ApplicationInsights.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Newtonsoft.Json.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Owin.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\PagedList.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\PagedList.Mvc.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Net.Http.Formatting.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Helpers.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Http.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Http.WebHost.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Mvc.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Optimization.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Razor.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.WebPages.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\WebGrease.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\PagedList.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\PagedList.Mvc.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Helpers.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Mvc.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Optimization.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Razor.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.WebPages.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Newtonsoft.Json.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Antlr3.Runtime.pdb
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Net.Http.Formatting.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Http.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Web.Http.WebHost.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\EntityFramework.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\EntityFramework.SqlServer.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.AI.Web.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\System.Web.Razor.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\System.Web.Http.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\EntityFramework.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.csprojAssemblyReference.cache
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.Migra12111111.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.addFilePathCustomModel.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.addChatConnectorCustomModel.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.sada.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.sadaa.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.sadaa1.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.addTypeModel.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.addCategoryModel.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.addImagePath.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.addImageFile.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.addDate1.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.addPrices.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.attachModel.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.addPriceandDays.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.intColumn.resources
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.GenerateResource.cache
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.CoreCompileInputs.cache
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.CopyComplete
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.dll
+C:\Users\m.levchenko\source\repos\HelpMe\HelpMe\obj\Debug\HelpMe.pdb
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ApplicationInsights.config
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\HelpMe.dll.config
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\HelpMe.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\HelpMe.pdb
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\csc.exe
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\csc.exe.config
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\csc.rsp
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\csi.exe
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\csi.exe.config
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\csi.rsp
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.AppContext.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Console.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.IO.Compression.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.IO.Pipes.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Security.Claims.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.ValueTuple.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\vbc.exe
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\vbc.exe.config
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\vbc.rsp
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\VBCSCompiler.exe
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Antlr3.Runtime.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\EntityFramework.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\EntityFramework.SqlServer.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AI.Web.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.ApplicationInsights.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Newtonsoft.Json.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Owin.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\PagedList.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\PagedList.Mvc.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Net.Http.Formatting.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Helpers.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Http.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Http.WebHost.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Mvc.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Optimization.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Razor.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.WebPages.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\WebGrease.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\PagedList.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\PagedList.Mvc.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Helpers.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Mvc.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Optimization.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Razor.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.WebPages.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Newtonsoft.Json.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Antlr3.Runtime.pdb
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Net.Http.Formatting.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Http.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Web.Http.WebHost.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\EntityFramework.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\EntityFramework.SqlServer.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.AI.Web.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\System.Web.Razor.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\System.Web.Http.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\EntityFramework.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.CoreCompileInputs.cache
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.CopyComplete
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\obj\Debug\HelpMe.dll
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\obj\Debug\HelpMe.pdb
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.add12j12a.resources
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.GenerateResource.cache
+C:\Users\slobodan\Desktop\HelpMe (11.09)\HelpMe\HelpMe\obj\Debug\HelpMe.csprojAssemblyReference.cache
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ApplicationInsights.config
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\HelpMe.dll.config
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\HelpMe.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\HelpMe.pdb
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\csc.exe
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\csc.exe.config
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\csc.rsp
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\csi.exe
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\csi.exe.config
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\csi.rsp
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.AppContext.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Console.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.Compression.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Claims.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.ValueTuple.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\vbc.exe
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\vbc.exe.config
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\vbc.rsp
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\VBCSCompiler.exe
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Antlr3.Runtime.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\EntityFramework.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\EntityFramework.SqlServer.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.Web.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.ApplicationInsights.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Newtonsoft.Json.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Owin.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\PagedList.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\PagedList.Mvc.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Net.Http.Formatting.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Helpers.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.WebHost.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Mvc.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Optimization.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Razor.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\WebGrease.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\PagedList.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\PagedList.Mvc.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Helpers.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Mvc.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Optimization.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Razor.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Newtonsoft.Json.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Antlr3.Runtime.pdb
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Net.Http.Formatting.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.WebHost.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\EntityFramework.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\EntityFramework.SqlServer.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.Web.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Razor.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Http.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\EntityFramework.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.csprojResolveAssemblyReference.cache
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.dll
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.pdb
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.Newmigra.resources
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.GenerateResource.Cache
+C:\Users\user_guest\Desktop\Документы Красноярск Газпром нефтегазпроект\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.MigraMessage.resources
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ApplicationInsights.config
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\HelpMe.dll.config
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\HelpMe.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\HelpMe.pdb
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csc.exe
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csc.exe.config
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csc.rsp
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csi.exe
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csi.exe.config
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csi.rsp
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.AppContext.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Console.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.Compression.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Claims.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.ValueTuple.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\vbc.exe
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\vbc.exe.config
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\vbc.rsp
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\VBCSCompiler.exe
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Antlr3.Runtime.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\EntityFramework.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\EntityFramework.SqlServer.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.Web.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.ApplicationInsights.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Newtonsoft.Json.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Owin.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\PagedList.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\PagedList.Mvc.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Net.Http.Formatting.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Helpers.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.WebHost.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Mvc.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Optimization.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Razor.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\WebGrease.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\PagedList.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\PagedList.Mvc.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Helpers.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Mvc.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Optimization.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Razor.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Newtonsoft.Json.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Antlr3.Runtime.pdb
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Net.Http.Formatting.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.WebHost.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\EntityFramework.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\EntityFramework.SqlServer.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.Web.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Razor.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Http.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\EntityFramework.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.csprojResolveAssemblyReference.cache
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.Newmigra.resources
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.MigraMessage.resources
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.GenerateResource.Cache
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.dll
+C:\Users\user_guest\Desktop\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.pdb
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ApplicationInsights.config
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\HelpMe.dll.config
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\HelpMe.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\HelpMe.pdb
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csc.exe
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csc.exe.config
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csc.rsp
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csi.exe
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csi.exe.config
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\csi.rsp
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.AppContext.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Console.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.Compression.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.IO.Pipes.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Claims.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.ValueTuple.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\vbc.exe
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\vbc.exe.config
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\vbc.rsp
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\VBCSCompiler.exe
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Antlr3.Runtime.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\EntityFramework.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\EntityFramework.SqlServer.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.Web.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.ApplicationInsights.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Newtonsoft.Json.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Owin.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\PagedList.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\PagedList.Mvc.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Net.Http.Formatting.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Helpers.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.WebHost.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Mvc.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Optimization.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Razor.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\WebGrease.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\PagedList.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\PagedList.Mvc.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Helpers.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Mvc.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Optimization.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Razor.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Newtonsoft.Json.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Antlr3.Runtime.pdb
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Net.Http.Formatting.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Web.Http.WebHost.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\EntityFramework.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\EntityFramework.SqlServer.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.AI.Web.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Razor.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Http.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\EntityFramework.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.csprojAssemblyReference.cache
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.Newmigra.resources
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.MigraMessage.resources
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.GenerateResource.cache
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.CoreCompileInputs.cache
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.CopyComplete
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.dll
+C:\Users\slobodan\Desktop\doc\doc\hm\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.pdb

@@ -1,0 +1,41 @@
+﻿@model HelpMe.Models.CustomViewModel
+
+@{
+    ViewBag.Title = "Удаление заказа";
+}
+
+<h2>Delete</h2>
+
+<h3>Вы уверены, что хотите удалить заказ?</h3>
+<div>
+    <h4>Удаление</h4>
+    <hr />
+    <dl class="dl-horizontal">
+       
+        <dt>
+            Название заказа
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            Описание заказа
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-default" /> |
+            @Html.ActionLink("К общему списку", "Index")
+        </div>
+    }
+</div>

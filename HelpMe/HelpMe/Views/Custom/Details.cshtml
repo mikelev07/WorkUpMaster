@@ -1,0 +1,695 @@
+﻿@using Microsoft.AspNet.Identity
+@using HelpMe.Helpers
+@model HelpMe.Models.CustomViewModel
+
+@{
+    ViewBag.Title = "Подробно";
+}
+
+<!-- Titlebar ================================================== -->
+<div class="single-page-header" data-background-image="images/single-task.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="single-page-header-inner">
+                    <div class="left-side">
+                        <div class="header-image"><a href="single-company-profile.html"><img src='@Url.Content(Model.TypeTask.ImagePath)' /></a></div>
+                        <div class="header-details">
+
+                            <h3>@Html.DisplayFor(model => model.Name)</h3>
+                            <h5>@Html.DisplayFor(model => model.CategoryTask.Name)</h5>
+                            <ul>
+                                <li><a href="single-company-profile.html"><i class="icon-material-outline-business"></i>@Html.DisplayFor(model => model.User.Email)</a></li>
+                                <li><div class="verified-badge-with-title">Проверенный заказчик</div></li>
+                                <li>@HtmlExtensions.EnumDisplayNameFor(Model.Status)</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="salary-box">
+                            <div class="salary-type">Бюджет задания</div>
+                            <div class="salary-amount">@Model.MinPrice - @Model.MaxPrice руб.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-8 col-lg-8 content-right-offset">
+            <div class="single-page-section">
+                <h3 class="margin-bottom-25">Описание задачи</h3>
+                <p style="-moz-hyphens: auto;-webkit-hyphens: auto;-ms-hyphens: auto;">
+                    @Html.Nl2Br(Model.Description)
+                </p>
+            </div>
+
+            <div class="single-page-section">
+                <h3>Вложения</h3>
+                <div class="attachments-container">
+                    <a class="attachment-box ripple-effect" href="@Url.Action("GetFile", "Custom",new { path = Model.AttachFilePath })"><span>Файл задания</span><i>PDF</i></a>
+                </div>
+            </div>
+
+            <div class="single-page-section">
+                @if (Model.ExecutorId == User.Identity.GetUserId() && Request.IsAuthenticated)
+                {
+                    <h3>Добавление решения</h3>
+
+                    using (Html.BeginForm("SendSolution", "Custom", new { id = Model.Id }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        <div class="uploadButton margin-top-30">
+                            <input class="uploadButton-input" type="file" name="upload" id="upload" required />
+                            <label class="uploadButton-button ripple-effect" for="upload">Прикрепить решение</label>
+                            <span class="uploadButton-file-name">Загрузите файл решения для исполнителя любого формата</span>
+                        </div>
+                        <input type="submit" value="Загрузить" class="button ripple-effect margin-top-10" />
+                    }
+                }
+
+            </div>
+            @if (Model.FilePath != null && Model.UserId == User.Identity.GetUserId())
+            {
+                <div class="notification notice closeable">
+                    <p>Исполнитель загрузил решение</p>
+                    <a class="close" href="#"></a>
+                </div>
+            }
+            @if (Model.ExecutorId == User.Identity.GetUserId() || Model.UserId == User.Identity.GetUserId() && Model.FilePath != null)
+            {
+                <div class="single-page-section">
+                    <h3>Вложения исполнителя</h3>
+                    <div class="attachments-container">
+                        <a href="@Url.Action("GetFile", "Custom", new { path = Model.FilePath })" class="attachment-box ripple-effect"><span>Файл исполнителя</span><i>PDF</i></a>
+                    </div> <br />
+
+                </div>
+            }
+            <div class="single-page-section">
+                <h3>Необходимые навыки</h3>
+                <div class="task-tags">
+                    <span>iOS</span>
+                    <span>Android</span>
+                    <span>mobile apps</span>
+                    <span>design</span>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="boxed-list margin-bottom-60">
+                <div class="boxed-list-headline">
+                    <h3><i class="icon-material-outline-group"></i>Предложения исполнителей (@Model.Comments.Count)</h3>
+                </div>
+
+
+                <ul class="boxed-list-ul" id="boxed-list-ul">
+                    @foreach (var c in Model.Comments)
+                    {
+                        if (Model.UserId == User.Identity.GetUserId() || c.UserId == User.Identity.GetUserId())
+                        {
+                            <li>
+                                <div class="bid">
+                                    <div class="bids-avatar">
+                                        <div class="freelancer-avatar">
+                                            <div class="verified-badge"></div>
+                                            <a href="single-freelancer-profile.html"><img src="~/Content/Custom/images/user-avatar-big-01.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="bids-content">
+                                        <!-- Name -->
+                                        <div class="freelancer-name">
+                                            <h4><a href="single-freelancer-profile.html">@c.User.Email <img class="flag" src="images/flags/gb.svg" alt="" title="United Kingdom" data-tippy-placement="top"></a></h4>
+                                            <div class="star-rating" data-rating="4.9"></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Bid -->
+                                    <div class="bids-bid">
+                                        <div class="bid-rate">
+                                            <div class="rate">@c.OfferPrice рублей</div>
+                                            <span>за @c.Days дней</span>
+                                        </div>
+                                        <div style="margin-left: 23px;" class="buttons-to - right always - visible">
+                                            <a href="#small-dialog" class="popup-with-zoom-anim button dark ripple-effect ico" title="Редактировать" data-tippy-placement="top">
+                                                <i class="icon-feather-edit"></i>
+                                            </a>
+                                            <a href="#" class="button red ripple-effect ico" title="Удалить" data-tippy-placement="top">
+                                                <i class="icon-feather-trash-2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                @if (Model.UserId == User.Identity.GetUserId() && Model.ExecutorId == null)
+                                {
+                                    <div class="margin-top-30">
+                                        <a href="#small-dialog-1" style="box-shadow: 0 12px 12px rgba(0,0,0,0.1);border-radius: 25px;" class="popup-with-zoom-anim button ripple-effect"><i class="icon-material-outline-check"></i> Принять предложение</a>
+                                        <a href="#small-dialog-2" style="background-color: #f4f4f4;box-shadow: 0 12px 12px rgba(0,0,0,0.1);color: #333;border-radius: 25px;" class="popup-with-zoom-anim button dark ripple-effect"><i class="icon-feather-mail"></i> Отправить сообщение</a>
+                                        <a href="#" style="background-color: #f4f4f4;box-shadow: 0 12px 12px rgba(0,0,0,0.1);color: #333;border-radius: 25px;" class="button gray ripple-effect ico" title="Удалить предложение" data-tippy-placement="top"><i class="icon-feather-trash-2"></i></a>
+                                    </div>
+                                }
+                                <div class="item-description margin-top-20">
+                                    <p> @c.Description</p>
+                                </div>
+                            </li>
+                        }
+
+                        <div id="small-dialog-1" class="zoom-anim-dialog mfp-hide dialog-with-tabs">
+
+                            <!--Tabs -->
+                            <div class="sign-in-form">
+
+                                <ul class="popup-tabs-nav">
+                                    <li><a href="#tab1">Принять предложение</a></li>
+                                </ul>
+
+                                <div class="popup-tabs-container">
+
+                                    <!-- Tab -->
+                                    <div class="popup-tab-content" id="tab">
+
+                                        <!-- Welcome Text -->
+                                        <div class="welcome-text">
+                                            <h3>Принять предложение от Марианночки</h3>
+                                            <div class="bid-acceptance margin-top-15">
+                                                $3200
+                                            </div>
+
+                                        </div>
+
+                                        <form id="terms">
+                                            <div class="radio">
+                                                <input id="radio-1" name="radio" type="radio" required>
+                                                <label for="radio-1"><span class="radio-label"></span>  Я ознакомился с правилами</label>
+                                            </div>
+                                        </form>
+
+                                        <!-- Button -->
+                                        <a href="@Url.Action("ChooseExecutor", "Custom", new { id = Model.Id, userId = c.UserId })" class="margin-top-15 button full-width button-sliding-icon ripple-effect" type="submit" form="terms">Accept <i class="icon-material-outline-arrow-right-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Bid Acceptance Popup / End -->
+                        <!-- Edit Bid Popup
+        ================================================== -->
+                        <div id="small-dialog" class="zoom-anim-dialog mfp-hide dialog-with-tabs">
+
+                            <!--Tabs -->
+                            <div class="sign-in-form">
+
+                                <ul class="popup-tabs-nav">
+                                    <li><a href="#tab">Редактировать предложение</a></li>
+                                </ul>
+
+                                <div class="popup-tabs-container">
+
+                                    <!-- Tab -->
+                                    <div class="popup-tab-content" id="tab">
+                                        @using (Html.BeginForm("Edit", "Comment", new { id = c.Id }, FormMethod.Post))
+                                        {
+                                            @Html.AntiForgeryToken()
+
+                                            @Html.Hidden("UserId",c.UserId.ToString())
+                                            @Html.Hidden("CustomViewModelId",c.CustomViewModelId.ToString())
+                                            @Html.Hidden("Description",c.Description.ToString())
+                                            @Html.Hidden("OfferPrice",c.OfferPrice.ToString())
+                                            <!-- Bidding -->
+                                            <div class="bidding-widget">
+                                                <!-- Headline -->
+                                                <span class="bidding-detail margin-top-30">Укажите время выполнения</span>
+
+                                                <!-- Fields -->
+                                                <div class="bidding-fields">
+                                                    <div class="bidding-field">
+                                                        <!-- Quantity Buttons -->
+                                                        <div class="qtyButtons with-border">
+                                                            <div class="qtyDec"></div>
+                                                            <input id="Days" type="text" name="Days" value="2">
+                                                            <div class="qtyInc"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bidding-field">
+                                                        <select class="selectpicker default with-border">
+                                                            <option selected>Days</option>
+                                                            <option>Hours</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Button -->
+                                            <button class="button full-width button-sliding-icon ripple-effect" type="submit">Save Changes <i class="icon-material-outline-arrow-right-alt"></i></button>
+                                        }
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Send Direct Message Popup
+        ================================================== -->
+                        <div id="small-dialog-2" class="zoom-anim-dialog mfp-hide dialog-with-tabs">
+
+                            <!--Tabs -->
+                            <div class="sign-in-form">
+
+                                <ul class="popup-tabs-nav">
+                                    <li><a href="#tab2">Отправка сообщения</a></li>
+                                </ul>
+
+                                <div class="popup-tabs-container">
+
+                                    <!-- Tab -->
+                                    <div class="popup-tab-content" id="tab2">
+
+                                        <!-- Welcome Text -->
+                                        <div class="welcome-text">
+                                            <h3>Отправить сообщение Марианночке</h3>
+                                        </div>
+
+                                        <!-- Form -->
+                                        <form method="post" id="send-pm">
+                                            <textarea name="textarea" cols="10" placeholder="Message" class="with-border" required></textarea>
+                                        </form>
+
+                                        <!-- Button -->
+                                        <a class="button full-width button-sliding-icon ripple-effect" type="submit" form="send-pm">Отправить <i class="icon-material-outline-arrow-right-alt"></i></a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                </ul>
+
+            </div>
+
+        </div>
+
+
+            <!-- Sidebar -->
+            <div class="col-xl-4 col-lg-4">
+                <div class="sidebar-container">
+                    <div class="countdown green margin-bottom-35">До завершения: @Model.TotalHrs.Days дней и @Model.TotalHrs.Hours часов </div>
+                    <!-- Sidebar Widget -->
+                    <div class="sidebar-widget">
+                        <div class="job-overview">
+                            <div class="job-overview-headline">Кратко</div>
+                            <div class="job-overview-inner">
+                                <ul>
+                                    <li>
+                                        <i class="icon-material-outline-location-on"></i>
+                                        <span>Город</span>
+                                        <h5>Москва</h5>
+                                    </li>
+                                    <li>
+                                        <i class="icon-material-outline-business-center"></i>
+                                        <span>Тип работы</span>
+                                        <h5> @Html.DisplayFor(model => model.TypeTask.Name)</h5>
+                                    </li>
+                                    <li>
+                                        <i class="icon-material-outline-local-atm"></i>
+                                        <span>Бюджет</span>
+                                        <h5>$35k - $38k</h5>
+                                    </li>
+                                    <li>
+                                        <i class="icon-material-outline-access-time"></i>
+                                        <span>Выполнить до</span>
+                                        <h5>31 февраля</h5>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (Model.ExecutorId != null)
+                    {
+                        <div class="sidebar-widget">
+                            <div class="job-overview">
+                                <div class="job-overview-headline">Исполнитель работы</div>
+                                <div class="job-overview-inner">
+                                    <ul>
+                                        <li>
+                                            <i class="icon-material-outline-location-on"></i>
+                                            <span>Город</span>
+                                            <h5>Москва</h5>
+                                        </li>
+                                        <li>
+                                            <i class="icon-material-outline-business-center"></i>
+                                            <span>Имя исполнителя</span>
+                                            <h5> @Html.DisplayFor(model => model.Executor.Email)</h5>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    @if (Model.UserId != User.Identity.GetUserId() && Model.ExecutorId == null && Request.IsAuthenticated)
+                    {
+                        <div class="sidebar-widget">
+                            <div class="bidding-widget">
+                                <div class="bidding-headline"><h3>Добавить предложение</h3></div>
+                                <div class="bidding-inner">
+
+                                    <!-- Headline -->
+                                    <span class="bidding-detail">Укажите <strong>стоимость работы</strong></span>
+
+                                    <!-- Price Slider -->
+                                    <div class="bidding-value">$<span id="biddingVal"></span></div>
+                                    <input id="slider-price" class="bidding-slider" type="text" value="" data-slider-handle="custom" data-slider-currency="$" data-slider-min="2500" data-slider-max="4500" data-slider-value="auto" data-slider-step="50" data-slider-tooltip="hide" />
+
+                                    <!-- Headline -->
+                                    <span class="bidding-detail margin-top-30">Укажите <strong>срок выполнения</strong></span>
+
+                                    <!-- Fields -->
+                                    <div class="bidding-fields">
+                                        <div class="bidding-field">
+                                            <!-- Quantity Buttons -->
+                                            <div class="qtyButtons">
+                                                <div class="qtyDec"></div>
+                                                <input id="time" type="text" name="qtyInput" value="1">
+                                                <div class="qtyInc"></div>
+                                            </div>
+                                        </div>
+                                        <div class="bidding-field">
+                                            <select class="selectpicker default">
+                                                <option selected>Дней</option>
+                                                <option>Часов</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- Headline -->
+                                    <span class="bidding-detail margin-top-30">Добавьте <strong>комментарий</strong></span>
+
+                                    <textarea id="desсription" cols="30" rows="5" class="with-border"></textarea>
+
+                                    <!-- Button -->
+                                    <button id="snackbar-place-bid" class="button ripple-effect move-on-hover full-width margin-top-30"><span>Разместить предложение</span></button>
+
+                                </div>
+                                <div class="bidding-signup">Еще нет аккаунта? <a href="#sign-in-dialog" class="register-tab sign-in popup-with-zoom-anim">Регистрация</a></div>
+                            </div>
+                        </div>
+                    }
+
+
+                </div>
+            </div>
+
+        </div>
+</div>
+
+
+<!-- Spacer -->
+<div class="margin-top-15"></div>
+<!-- Spacer / End-->
+<!-- Footer
+================================================== -->
+<div id="footer">
+
+    <!-- Footer Top Section -->
+    <div class="footer-top-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+
+                    <!-- Footer Rows Container -->
+                    <div class="footer-rows-container">
+
+                        <!-- Left Side -->
+                        <div class="footer-rows-left">
+                            <div class="footer-row">
+                                <div class="footer-row-inner footer-logo">
+                                    <img src="images/logo2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Side -->
+                        <div class="footer-rows-right">
+
+                            <!-- Social Icons -->
+                            <div class="footer-row">
+                                <div class="footer-row-inner">
+                                    <ul class="footer-social-links">
+                                        <li>
+                                            <a href="#" title="Facebook" data-tippy-placement="bottom" data-tippy-theme="light">
+                                                <i class="icon-brand-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Twitter" data-tippy-placement="bottom" data-tippy-theme="light">
+                                                <i class="icon-brand-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Google Plus" data-tippy-placement="bottom" data-tippy-theme="light">
+                                                <i class="icon-brand-google-plus-g"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="LinkedIn" data-tippy-placement="bottom" data-tippy-theme="light">
+                                                <i class="icon-brand-linkedin-in"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+                            <!-- Language Switcher -->
+                            <div class="footer-row">
+                                <div class="footer-row-inner">
+                                    <select class="selectpicker language-switcher" data-selected-text-format="count" data-size="5">
+                                        <option selected>English</option>
+                                        <option>Français</option>
+                                        <option>Español</option>
+                                        <option>Deutsch</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Footer Rows Container / End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Top Section / End -->
+    <!-- Footer Middle Section -->
+    <div class="footer-middle-section">
+        <div class="container">
+            <div class="row">
+
+                <!-- Links -->
+                <div class="col-xl-2 col-lg-2 col-md-3">
+                    <div class="footer-links">
+                        <h3>For Candidates</h3>
+                        <ul>
+                            <li><a href="#"><span>Browse Jobs</span></a></li>
+                            <li><a href="#"><span>Add Resume</span></a></li>
+                            <li><a href="#"><span>Job Alerts</span></a></li>
+                            <li><a href="#"><span>My Bookmarks</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="col-xl-2 col-lg-2 col-md-3">
+                    <div class="footer-links">
+                        <h3>For Employers</h3>
+                        <ul>
+                            <li><a href="#"><span>Browse Candidates</span></a></li>
+                            <li><a href="#"><span>Post a Job</span></a></li>
+                            <li><a href="#"><span>Post a Task</span></a></li>
+                            <li><a href="#"><span>Plans & Pricing</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="col-xl-2 col-lg-2 col-md-3">
+                    <div class="footer-links">
+                        <h3>Helpful Links</h3>
+                        <ul>
+                            <li><a href="#"><span>Contact</span></a></li>
+                            <li><a href="#"><span>Privacy Policy</span></a></li>
+                            <li><a href="#"><span>Terms of Use</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="col-xl-2 col-lg-2 col-md-3">
+                    <div class="footer-links">
+                        <h3>Account</h3>
+                        <ul>
+                            <li><a href="#"><span>Log In</span></a></li>
+                            <li><a href="#"><span>My Account</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <h3><i class="icon-feather-mail"></i> Sign Up For a Newsletter</h3>
+                    <p>Weekly breaking news, analysis and cutting edge advices on job searching.</p>
+                    <form action="#" method="get" class="newsletter">
+                        <input type="text" name="fname" placeholder="Enter your email address">
+                        <button type="submit"><i class="icon-feather-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Middle Section / End -->
+    <!-- Footer Copyrights -->
+    <div class="footer-bottom-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    © 2018 <strong>Hireo</strong>. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Copyrights / End -->
+
+</div>
+
+
+
+@section Scripts {
+
+<script>
+    var countUserComment = 0;
+        $("#snackbar-place-bid").click(function () {
+            var decription = $("textarea#desсription").val();
+            var slider = $("#slider-price").val();
+            var time = $("#time").val();
+
+            if (decription == "") {
+                Snackbar.show({
+                    text: 'Добавьте комментарий!',
+                });
+                return;
+            }
+            if (slider == "") {
+                Snackbar.show({
+                    text: 'Добавьте стоимость выполнения!',
+                });
+                return;
+            }
+            if (time == "") {
+                Snackbar.show({
+                    text: 'Добавьте срок выполнения!',
+                });
+                return;
+            }
+
+            var person = { Description: decription, OfferPrice: slider, Days: time, CustomViewModelId: @Model.Id };
+            
+            $.post("/Custom/People", person, null, "json")
+            var htmlEditBind = '<div style="margin-left: 23px;" class="buttons-to - right always - visible"><a href="#small-dialog" class="popup-with-zoom-anim button dark ripple-effect ico" title="Редактировать" data-tippy-placement="top"><i class="icon-feather-edit"></i></a> <a href="#" class="button red ripple-effect ico" title="Удалить" data-tippy-placement="top"><i class="icon-feather-trash-2"></i></a></div>';
+            var htmlStar = "<div id=\"starId\" class=\"star-rating\" data-rating=\"4.9\"></div>";
+            var htmlComment = "<li><div class='bid'><div class='bids-avatar'><div class='freelancer-avatar'><div class='verified-badge'></div><a href='single-freelancer-profile.html'><img src='/Content/Custom/images/user-avatar-big-01.jpg' alt=''></a></div></div><div class='bids-content'><div class='freelancer-name'><h4><a href='single-freelancer-profile.html'>@User.Identity.Name<img class='flag' src='images/flags/gb.svg' alt='' title='United Kingdom' data-tippy-placement='top'></a></h4>" + htmlStar + "</div></div><div class='bids-bid'><div class='bid-rate'><div class='rate'>" + person.OfferPrice + " рублей</div><span>за " + person.Days + " дней</span></div>"+htmlEditBind+"</div></div><div class='item-description margin-top-30'><p>" + person.Description + "</p></div></li>";
+            if (@Model.Comments.Where(c => c.UserId == User.Identity.GetUserId()).Count() >= 1 || countUserComment >=1) {
+                Snackbar.show({
+                    text: 'Вы не можете добавлять более 1 предложения!'
+                });
+                return null;
+            }
+            else {
+              
+                $("#boxed-list-ul").append(htmlComment);
+                $("#boxed-list-ul").on('click','#starId', function () {
+                    $('#starId').each(function () {
+
+                        var dataRating = $(this).attr('data-rating');
+
+                        // Rating Stars Output
+                        function starsOutput(firstStar, secondStar, thirdStar, fourthStar, fifthStar) {
+                            return ('' +
+                                '<span class="' + firstStar + '"></span>' +
+                                '<span class="' + secondStar + '"></span>' +
+                                '<span class="' + thirdStar + '"></span>' +
+                                '<span class="' + fourthStar + '"></span>' +
+                                '<span class="' + fifthStar + '"></span>');
+                        }
+
+                        var fiveStars = starsOutput('star', 'star', 'star', 'star', 'star');
+
+                        var fourHalfStars = starsOutput('star', 'star', 'star', 'star', 'star half');
+                        var fourStars = starsOutput('star', 'star', 'star', 'star', 'star empty');
+
+                        var threeHalfStars = starsOutput('star', 'star', 'star', 'star half', 'star empty');
+                        var threeStars = starsOutput('star', 'star', 'star', 'star empty', 'star empty');
+
+                        var twoHalfStars = starsOutput('star', 'star', 'star half', 'star empty', 'star empty');
+                        var twoStars = starsOutput('star', 'star', 'star empty', 'star empty', 'star empty');
+
+                        var oneHalfStar = starsOutput('star', 'star half', 'star empty', 'star empty', 'star empty');
+                        var oneStar = starsOutput('star', 'star empty', 'star empty', 'star empty', 'star empty');
+
+                        // Rules
+                        if (dataRating >= 4.75) {
+                            $(this).append(fiveStars);
+                        } else if (dataRating >= 4.25) {
+                            $(this).append(fourHalfStars);
+                        } else if (dataRating >= 3.75) {
+                            $(this).append(fourStars);
+                        } else if (dataRating >= 3.25) {
+                            $(this).append(threeHalfStars);
+                        } else if (dataRating >= 2.75) {
+                            $(this).append(threeStars);
+                        } else if (dataRating >= 2.25) {
+                            $(this).append(twoHalfStars);
+                        } else if (dataRating >= 1.75) {
+                            $(this).append(twoStars);
+                        } else if (dataRating >= 1.25) {
+                            $(this).append(oneHalfStar);
+                        } else if (dataRating < 1.25) {
+                            $(this).append(oneStar);
+                        }
+
+                    });
+                });
+                $('#starId')[0].click();
+                countUserComment++;
+            }
+        });
+
+</script>
+
+    <script>
+        // Snackbar for user status switcher
+        $('#snackbar-user-status label').click(function () {
+            Snackbar.show({
+                text: 'Your status has been changed!',
+                pos: 'bottom-center',
+                showAction: false,
+                actionText: "Dismiss",
+                duration: 3000,
+                textColor: '#fff',
+                backgroundColor: '#383838'
+            });
+        });
+
+
+        // Snackbar for copy to clipboard button
+        $('.copy-url-button').click(function () {
+            Snackbar.show({
+                text: 'Copied to clipboard!',
+            });
+        });
+    </script>
+}
+

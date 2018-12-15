@@ -1,0 +1,33 @@
+﻿@model IEnumerable<HelpMe.Models.CustomViewModel>
+
+@foreach (var item in Model)
+{
+    <!-- Task -->
+    <a href=@Url.Action("Details", new { id = item.Id }) class="task-listing">
+
+        <!-- Job Listing Details -->
+        <div class="task-listing-details">
+
+            <!-- Details -->
+            <div class="task-listing-description">
+                <h3 class="task-listing-title"> @Html.DisplayFor(modelItem => item.Name)</h3>
+                <ul class="task-icons">
+                    <li><i class="icon-material-outline-location-on"></i> San Francisco</li>
+                    <li><i class="icon-material-outline-access-time"></i> 2 minutes ago</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="task-listing-bid">
+            <div class="task-listing-bid-inner">
+                <div class="task-offers">
+                    <strong>$1,000 - $2,500</strong>
+                    <span>Fixed Price</span>
+                </div>
+
+            </div>
+        </div>
+    </a>
+
+}

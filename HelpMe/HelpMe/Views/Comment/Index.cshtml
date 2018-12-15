@@ -1,0 +1,45 @@
+﻿@model IEnumerable<HelpMe.Models.CommentViewModel>
+
+@{
+    ViewBag.Title = "Комментарии";
+}
+
+<h2>Все комментарии</h2>
+
+<p>
+    @Html.ActionLink("Добавить комментарий", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+           Название задачи
+        </th>
+        <th>
+           Название комментария
+        </th>
+        <th>
+           Описание комментария
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CustomViewModel.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Подробно", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Удалить", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

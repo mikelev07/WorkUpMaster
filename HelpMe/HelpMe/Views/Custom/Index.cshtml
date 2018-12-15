@@ -1,0 +1,253 @@
+﻿@using HelpMe.Models
+@using PagedList.Mvc;
+@using HelpMe.Helpers
+@model HelpMe.Models.CustomIndexViewModel
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "Заказы";
+}
+<!-- Page Content
+================================================== -->
+<div class="full-page-container">
+
+    <div class="full-page-sidebar">
+
+        <div class="full-page-sidebar-inner" data-simplebar>
+            @using (Ajax.BeginForm("CustomSearch", new AjaxOptions { UpdateTargetId = "results" }))
+            {
+                <div class="sidebar-container">
+
+                    <!-- Location -->
+                    <div class="sidebar-widget">
+                        <h3>По названию</h3>
+                        <div class="input-with-icon">
+                            <div id="autocomplete-container">
+                                <input id="name" name="name" type="text" placeholder="Название">
+                            </div>
+                            <i class="icon-material-outline-location-on"></i>
+                        </div>
+                    </div>
+
+                    <!-- Category -->
+                    <div class="sidebar-widget">
+                        <h3>Тип работы</h3>
+                        <select class="selectpicker default" multiple data-selected-text-format="count" data-size="7" title="Все категории">
+                            <option>Admin Support</option>
+                            <option>Customer Service</option>
+                            <option>Data Analytics</option>
+                            <option>Design & Creative</option>
+                            <option>Legal</option>
+                            <option>Software Developing</option>
+                            <option>IT & Networking</option>
+                            <option>Writing</option>
+                            <option>Translation</option>
+                            <option>Sales & Marketing</option>
+                        </select>
+                    </div>
+
+                    <!-- Keywords -->
+                    <div class="sidebar-widget">
+                        <h3>Ключевые слова</h3>
+                        <div class="keywords-container">
+                            <div class="keyword-input-container">
+                                <input type="text" class="keyword-input" placeholder="e.g. task title" />
+                                <button class="keyword-input-button ripple-effect"><i class="icon-material-outline-add"></i></button>
+                            </div>
+                            <div class="keywords-list"><!-- keywords go here --></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+
+                    <!-- Budget -->
+                    <div class="sidebar-widget">
+                        <h3>Стоимость заказа</h3>
+                        <div class="margin-top-55"></div>
+
+                        <!-- Range Slider -->
+                        <input class="range-slider" type="text" value="" data-slider-currency="$" data-slider-min="10" data-slider-max="2500" data-slider-step="25" data-slider-value="[50,2500]" />
+                    </div>
+
+                    <!-- Hourly Rate -->
+                    <div class="sidebar-widget">
+                        <h3>Рейтинг</h3>
+                        <div class="margin-top-55"></div>
+
+                        <!-- Range Slider -->
+                        <input class="range-slider" type="text" value="" data-slider-currency="$" data-slider-min="10" data-slider-max="150" data-slider-step="5" data-slider-value="[10,200]" />
+                    </div>
+
+                    <!-- Tags -->
+                    <div class="sidebar-widget">
+                        <h3>Skills</h3>
+
+                        <div class="tags-container">
+                            <div class="tag">
+                                <input type="checkbox" id="tag1" />
+                                <label for="tag1">front-end dev</label>
+                            </div>
+                            <div class="tag">
+                                <input type="checkbox" id="tag2" />
+                                <label for="tag2">angular</label>
+                            </div>
+                            <div class="tag">
+                                <input type="checkbox" id="tag3" />
+                                <label for="tag3">react</label>
+                            </div>
+                            <div class="tag">
+                                <input type="checkbox" id="tag4" />
+                                <label for="tag4">vue js</label>
+                            </div>
+                            <div class="tag">
+                                <input type="checkbox" id="tag5" />
+                                <label for="tag5">web apps</label>
+                            </div>
+                            <div class="tag">
+                                <input type="checkbox" id="tag6" />
+                                <label for="tag6">design</label>
+                            </div>
+                            <div class="tag">
+                                <input type="checkbox" id="tag7" />
+                                <label for="tag7">wordpress</label>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <!-- More Skills -->
+                        <div class="keywords-container margin-top-20">
+                            <div class="keyword-input-container">
+                                <input type="text" class="keyword-input" placeholder="add more skills" />
+                                <button class="keyword-input-button ripple-effect"><i class="icon-material-outline-add"></i></button>
+                            </div>
+                            <div class="keywords-list"><!-- keywords go here --></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="margin-bottom-40"></div>
+
+                </div>
+                <!-- Sidebar Container / End -->
+                <!-- Search Button -->
+                <div class="sidebar-search-button-container">
+                    <button type="submit" class="button ripple-effect">Поиск</button>
+                </div>
+                <!-- Search Button / End-->
+            }
+        </div>
+
+    </div>
+    <!-- Full Page Sidebar / End -->
+    <!-- Full Page Content -->
+    <div class="full-page-content-container" data-simplebar>
+        <div class="full-page-content-inner">
+
+            <h3 class="page-title">Результаты поиска</h3>
+
+            <div class="notify-box margin-top-15">
+                <div class="switch-container">
+                    <label class="switch"><input type="checkbox"><span class="switch-button"></span><span class="switch-text">Включить уведомление по почте для новых задач</span></label>
+                </div>
+
+                <div class="sort-by">
+                    <span>Сортировать по:</span>
+                    <select class="selectpicker hide-tick">
+                        <option>Актуальности</option>
+                        <option>Новинкам</option>
+                        <option>Старым</option>
+                        <option>Любой</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Tasks Container -->
+            <div id="results" class="tasks-list-container tasks-grid-layout margin-top-35">
+
+                @foreach (var item in Model.Customs)
+                {
+                    <!-- Task -->
+                    <a href=@Url.Action("Details", new { id = item.Id }) class="task-listing">
+
+                        <!-- Job Listing Details -->
+                        <div class="task-listing-details">
+
+                            <!-- Details -->
+                            <div class="task-listing-description">
+                                <h3 class="task-listing-title"> @Html.DisplayFor(modelItem => item.Name)</h3>
+                                <ul class="task-icons">
+                                    <li><i class="icon-material-outline-location-on"></i> San Francisco</li>
+                                    <li><i class="icon-material-outline-access-time"></i> 2 minutes ago</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="task-listing-bid">
+                            <div class="task-listing-bid-inner">
+                                <div class="task-offers">
+                                    <strong>$1,000 - $2,500</strong>
+                                    <span>Fixed Price</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+
+                }
+            </div>
+
+
+            <!-- Tasks Container / End -->
+            <!-- Pagination -->
+            <div class="clearfix"></div>
+            <div class="pagination-container margin-top-20 margin-bottom-20">
+                <nav class="pagination">
+                    <ul>
+                        @if (Model.PageInfo.HasPreviousPage)
+                        {
+                            <li class="pagination-arrow"><a href=@Url.Action("Index", new { page = Model.PageInfo.PreviousPageIndex }) class="ripple-effect"><i class="icon-material-outline-keyboard-arrow-left"></i></a></li> 
+                        }
+                        @Html.PageLinks(Model.PageInfo, x => Url.Action("Index", new { page = x }))
+                        @if (Model.PageInfo.HasNextPage)
+                        {
+                            <li class="pagination-arrow"><a href=@Url.Action("Index", new { page = Model.PageInfo.NextPageIndex }) class="ripple-effect"><i class="icon-material-outline-keyboard-arrow-right"></i></a></li>
+                        }
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+            <!-- Pagination / End -->
+            <!-- Footer -->
+            <div class="small-footer margin-top-15">
+                <div class="small-footer-copyrights">
+                    © 2018 <strong>Hireo</strong>. All Rights Reserved.
+                </div>
+                <ul class="footer-social-links">
+                    <li>
+                        <a href="#" title="Facebook" data-tippy-placement="top">
+                            <i class="icon-brand-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Twitter" data-tippy-placement="top">
+                            <i class="icon-brand-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Google Plus" data-tippy-placement="top">
+                            <i class="icon-brand-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="LinkedIn" data-tippy-placement="top">
+                            <i class="icon-brand-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Full Page Content / End -->
