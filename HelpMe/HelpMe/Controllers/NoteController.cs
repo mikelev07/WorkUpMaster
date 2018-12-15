@@ -19,7 +19,7 @@ namespace HelpMe.Controllers
         // GET: Note
         public async Task<ActionResult> Index()
         {
-            var notes = db.Notes.Include(n => n.User);
+            var notes = db.Notes;
             return View(await notes.ToListAsync());
         }
 
