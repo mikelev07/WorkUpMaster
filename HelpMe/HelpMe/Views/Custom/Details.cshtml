@@ -196,7 +196,7 @@
                         </div>
                         <!-- Bid Acceptance Popup / End -->
                         <!-- Edit Bid Popup
-        ================================================== -->
+                        ================================================== -->
                         <div id="small-dialog" class="zoom-anim-dialog mfp-hide dialog-with-tabs">
 
                             <!--Tabs -->
@@ -214,10 +214,10 @@
                                         {
                                             @Html.AntiForgeryToken()
 
-                                            @Html.Hidden("UserId",c.UserId.ToString())
-                                            @Html.Hidden("CustomViewModelId",c.CustomViewModelId.ToString())
-                                            @Html.Hidden("Description",c.Description.ToString())
-                                            @Html.Hidden("OfferPrice",c.OfferPrice.ToString())
+                                            @Html.Hidden("UserId", c.UserId.ToString())
+                                            @Html.Hidden("CustomViewModelId", c.CustomViewModelId.ToString())
+                                            @Html.Hidden("Description", c.Description.ToString())
+                                            @Html.Hidden("OfferPrice", c.OfferPrice.ToString())
                                             <!-- Bidding -->
                                             <div class="bidding-widget">
                                                 <!-- Headline -->
@@ -251,7 +251,7 @@
                             </div>
                         </div>
                         <!-- Send Direct Message Popup
-        ================================================== -->
+                        ================================================== -->
                         <div id="small-dialog-2" class="zoom-anim-dialog mfp-hide dialog-with-tabs">
 
                             <!--Tabs -->
@@ -293,14 +293,46 @@
         </div>
 
 
-            <!-- Sidebar -->
-            <div class="col-xl-4 col-lg-4">
-                <div class="sidebar-container">
-                    <div class="countdown green margin-bottom-35">До завершения: @Model.TotalHrs.Days дней и @Model.TotalHrs.Hours часов </div>
-                    <!-- Sidebar Widget -->
+        <!-- Sidebar -->
+        <div class="col-xl-4 col-lg-4">
+            <div class="sidebar-container">
+                <div class="countdown green margin-bottom-35">До завершения: @Model.TotalHrs.Days дней и @Model.TotalHrs.Hours часов </div>
+                <!-- Sidebar Widget -->
+                <div class="sidebar-widget">
+                    <div class="job-overview">
+                        <div class="job-overview-headline">Кратко</div>
+                        <div class="job-overview-inner">
+                            <ul>
+                                <li>
+                                    <i class="icon-material-outline-location-on"></i>
+                                    <span>Город</span>
+                                    <h5>Москва</h5>
+                                </li>
+                                <li>
+                                    <i class="icon-material-outline-business-center"></i>
+                                    <span>Тип работы</span>
+                                    <h5> @Html.DisplayFor(model => model.TypeTask.Name)</h5>
+                                </li>
+                                <li>
+                                    <i class="icon-material-outline-local-atm"></i>
+                                    <span>Бюджет</span>
+                                    <h5>$35k - $38k</h5>
+                                </li>
+                                <li>
+                                    <i class="icon-material-outline-access-time"></i>
+                                    <span>Выполнить до</span>
+                                    <h5>31 февраля</h5>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                @if (Model.ExecutorId != null)
+                {
                     <div class="sidebar-widget">
                         <div class="job-overview">
-                            <div class="job-overview-headline">Кратко</div>
+                            <div class="job-overview-headline">Исполнитель работы</div>
                             <div class="job-overview-inner">
                                 <ul>
                                     <li>
@@ -310,106 +342,77 @@
                                     </li>
                                     <li>
                                         <i class="icon-material-outline-business-center"></i>
-                                        <span>Тип работы</span>
-                                        <h5> @Html.DisplayFor(model => model.TypeTask.Name)</h5>
-                                    </li>
-                                    <li>
-                                        <i class="icon-material-outline-local-atm"></i>
-                                        <span>Бюджет</span>
-                                        <h5>$35k - $38k</h5>
-                                    </li>
-                                    <li>
-                                        <i class="icon-material-outline-access-time"></i>
-                                        <span>Выполнить до</span>
-                                        <h5>31 февраля</h5>
+                                        <span>Имя исполнителя</span>
+                                        <h5> @Html.DisplayFor(model => model.Executor.Email)</h5>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+                }
 
-                    @if (Model.ExecutorId != null)
-                    {
-                        <div class="sidebar-widget">
-                            <div class="job-overview">
-                                <div class="job-overview-headline">Исполнитель работы</div>
-                                <div class="job-overview-inner">
-                                    <ul>
-                                        <li>
-                                            <i class="icon-material-outline-location-on"></i>
-                                            <span>Город</span>
-                                            <h5>Москва</h5>
-                                        </li>
-                                        <li>
-                                            <i class="icon-material-outline-business-center"></i>
-                                            <span>Имя исполнителя</span>
-                                            <h5> @Html.DisplayFor(model => model.Executor.Email)</h5>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    }
+                @if (Model.UserId != User.Identity.GetUserId() && Model.ExecutorId == null && Request.IsAuthenticated)
+                {
+                    <div class="sidebar-widget">
+                        <div class="bidding-widget">
+                            <div class="bidding-headline"><h3>Добавить предложение</h3></div>
+                            <div class="bidding-inner">
 
-                    @if (Model.UserId != User.Identity.GetUserId() && Model.ExecutorId == null && Request.IsAuthenticated)
-                    {
-                        <div class="sidebar-widget">
-                            <div class="bidding-widget">
-                                <div class="bidding-headline"><h3>Добавить предложение</h3></div>
-                                <div class="bidding-inner">
+                                <!-- Headline -->
+                                <span class="bidding-detail">Укажите <strong>стоимость работы</strong></span>
 
-                                    <!-- Headline -->
-                                    <span class="bidding-detail">Укажите <strong>стоимость работы</strong></span>
+                                <!-- Price Slider -->
+                                <div class="bidding-value">$<span id="biddingVal"></span></div>
+                                <input id="slider-price" class="bidding-slider" type="text" value="" data-slider-handle="custom" data-slider-currency="$" data-slider-min="2500" data-slider-max="4500" data-slider-value="auto" data-slider-step="50" data-slider-tooltip="hide" />
 
-                                    <!-- Price Slider -->
-                                    <div class="bidding-value">$<span id="biddingVal"></span></div>
-                                    <input id="slider-price" class="bidding-slider" type="text" value="" data-slider-handle="custom" data-slider-currency="$" data-slider-min="2500" data-slider-max="4500" data-slider-value="auto" data-slider-step="50" data-slider-tooltip="hide" />
+                                <!-- Headline -->
+                                <span class="bidding-detail margin-top-30">Укажите <strong>срок выполнения</strong></span>
 
-                                    <!-- Headline -->
-                                    <span class="bidding-detail margin-top-30">Укажите <strong>срок выполнения</strong></span>
-
-                                    <!-- Fields -->
-                                    <div class="bidding-fields">
-                                        <div class="bidding-field">
-                                            <!-- Quantity Buttons -->
-                                            <div class="qtyButtons">
-                                                <div class="qtyDec"></div>
-                                                <input id="time" type="text" name="qtyInput" value="1">
-                                                <div class="qtyInc"></div>
-                                            </div>
-                                        </div>
-                                        <div class="bidding-field">
-                                            <select class="selectpicker default">
-                                                <option selected>Дней</option>
-                                                <option>Часов</option>
-                                            </select>
+                                <!-- Fields -->
+                                <div class="bidding-fields">
+                                    <div class="bidding-field">
+                                        <!-- Quantity Buttons -->
+                                        <div class="qtyButtons">
+                                            <div class="qtyDec"></div>
+                                            <input id="time" type="text" name="qtyInput" value="1">
+                                            <div class="qtyInc"></div>
                                         </div>
                                     </div>
-                                    <!-- Headline -->
-                                    <span class="bidding-detail margin-top-30">Добавьте <strong>комментарий</strong></span>
-
-                                    <textarea id="desсription" cols="30" rows="5" class="with-border"></textarea>
-
-                                    <!-- Button -->
-                                    <button id="snackbar-place-bid" class="button ripple-effect move-on-hover full-width margin-top-30"><span>Разместить предложение</span></button>
-
+                                    <div class="bidding-field">
+                                        <select class="selectpicker default">
+                                            <option selected>Дней</option>
+                                            <option>Часов</option>
+                                        </select>
+                                    </div>
                                 </div>
-                                <div class="bidding-signup">Еще нет аккаунта? <a href="#sign-in-dialog" class="register-tab sign-in popup-with-zoom-anim">Регистрация</a></div>
+                                <!-- Headline -->
+                                <span class="bidding-detail margin-top-30">Добавьте <strong>комментарий</strong></span>
+
+                                <textarea id="desсription" cols="30" rows="5" class="with-border"></textarea>
+
+                                <!-- Button -->
+                                <button id="snackbar-place-bid" class="button ripple-effect move-on-hover full-width margin-top-30"><span>Разместить предложение</span></button>
+
                             </div>
+                            <div class="bidding-signup">Еще нет аккаунта? <a href="#sign-in-dialog" class="register-tab sign-in popup-with-zoom-anim">Регистрация</a></div>
                         </div>
-                    }
+                    </div>
+                }
 
 
-                </div>
             </div>
-
         </div>
+
+    </div>
 </div>
 
 
 <!-- Spacer -->
 <div class="margin-top-15"></div>
 <!-- Spacer / End-->
+<!-- Footer
+================================================== -->
+<!-- Membership Plans / End-->
 <!-- Footer
 ================================================== -->
 <div id="footer">
@@ -427,7 +430,7 @@
                         <div class="footer-rows-left">
                             <div class="footer-row">
                                 <div class="footer-row-inner footer-logo">
-                                    <img src="images/logo2.png" alt="">
+                                    <img src="~/Content/Custom/images/logo.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -492,12 +495,12 @@
                 <!-- Links -->
                 <div class="col-xl-2 col-lg-2 col-md-3">
                     <div class="footer-links">
-                        <h3>For Candidates</h3>
+                        <h3>Для хомячков</h3>
                         <ul>
-                            <li><a href="#"><span>Browse Jobs</span></a></li>
-                            <li><a href="#"><span>Add Resume</span></a></li>
-                            <li><a href="#"><span>Job Alerts</span></a></li>
-                            <li><a href="#"><span>My Bookmarks</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -505,12 +508,12 @@
                 <!-- Links -->
                 <div class="col-xl-2 col-lg-2 col-md-3">
                     <div class="footer-links">
-                        <h3>For Employers</h3>
+                        <h3>Для мудакофф</h3>
                         <ul>
-                            <li><a href="#"><span>Browse Candidates</span></a></li>
-                            <li><a href="#"><span>Post a Job</span></a></li>
-                            <li><a href="#"><span>Post a Task</span></a></li>
-                            <li><a href="#"><span>Plans & Pricing</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -518,11 +521,11 @@
                 <!-- Links -->
                 <div class="col-xl-2 col-lg-2 col-md-3">
                     <div class="footer-links">
-                        <h3>Helpful Links</h3>
+                        <h3>Полезное</h3>
                         <ul>
-                            <li><a href="#"><span>Contact</span></a></li>
-                            <li><a href="#"><span>Privacy Policy</span></a></li>
-                            <li><a href="#"><span>Terms of Use</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
+                            <li><a href="#"><span>Рыба</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -530,20 +533,20 @@
                 <!-- Links -->
                 <div class="col-xl-2 col-lg-2 col-md-3">
                     <div class="footer-links">
-                        <h3>Account</h3>
+                        <h3>Аккаунт</h3>
                         <ul>
-                            <li><a href="#"><span>Log In</span></a></li>
-                            <li><a href="#"><span>My Account</span></a></li>
+                            <li><a href="#"><span>Войти</span></a></li>
+                            <li><a href="#"><span>Зарегаться</span></a></li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Newsletter -->
                 <div class="col-xl-4 col-lg-4 col-md-12">
-                    <h3><i class="icon-feather-mail"></i> Sign Up For a Newsletter</h3>
-                    <p>Weekly breaking news, analysis and cutting edge advices on job searching.</p>
+                    <h3><i class="icon-feather-mail"></i> Подпишись чтобы получать новости</h3>
+                    <p>Вместо скучного поиска будешь использовать веселый.</p>
                     <form action="#" method="get" class="newsletter">
-                        <input type="text" name="fname" placeholder="Enter your email address">
+                        <input type="text" name="fname" placeholder="Введите свою почту">
                         <button type="submit"><i class="icon-feather-arrow-right"></i></button>
                     </form>
                 </div>
@@ -556,7 +559,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    © 2018 <strong>Hireo</strong>. All Rights Reserved.
+                    © 2018 <strong>ФакАп</strong>. Все права в поряде.
                 </div>
             </div>
         </div>
@@ -569,7 +572,7 @@
 
 @section Scripts {
 
-<script>
+    <script>
     var countUserComment = 0;
         $("#snackbar-place-bid").click(function () {
             var decription = $("textarea#desсription").val();
@@ -596,7 +599,7 @@
             }
 
             var person = { Description: decription, OfferPrice: slider, Days: time, CustomViewModelId: @Model.Id };
-            
+
             $.post("/Custom/People", person, null, "json")
             var htmlEditBind = '<div style="margin-left: 23px;" class="buttons-to - right always - visible"><a href="#small-dialog" class="popup-with-zoom-anim button dark ripple-effect ico" title="Редактировать" data-tippy-placement="top"><i class="icon-feather-edit"></i></a> <a href="#" class="button red ripple-effect ico" title="Удалить" data-tippy-placement="top"><i class="icon-feather-trash-2"></i></a></div>';
             var htmlStar = "<div id=\"starId\" class=\"star-rating\" data-rating=\"4.9\"></div>";
@@ -608,7 +611,7 @@
                 return null;
             }
             else {
-              
+
                 $("#boxed-list-ul").append(htmlComment);
                 $("#boxed-list-ul").on('click','#starId', function () {
                     $('#starId').each(function () {
@@ -667,7 +670,7 @@
             }
         });
 
-</script>
+    </script>
 
     <script>
         // Snackbar for user status switcher

@@ -10,10 +10,10 @@
 
                 <!-- Location -->
                 <div class="sidebar-widget">
-                    <h3>Location</h3>
+                    <h3>Имя</h3>
                     <div class="input-with-icon">
                         <div id="autocomplete-container">
-                            <input id="autocomplete-input" type="text" placeholder="Location">
+                            <input id="autocomplete-input" type="text" placeholder="введите имя">
                         </div>
                         <i class="icon-material-outline-location-on"></i>
                     </div>
@@ -21,27 +21,20 @@
 
                 <!-- Category -->
                 <div class="sidebar-widget">
-                    <h3>Category</h3>
+                    <h3>Навыки</h3>
                     <select class="selectpicker default" multiple data-selected-text-format="count" data-size="7" title="All Categories">
-                        <option>Admin Support</option>
-                        <option>Customer Service</option>
-                        <option>Data Analytics</option>
-                        <option>Design & Creative</option>
-                        <option>Legal</option>
-                        <option>Software Developing</option>
-                        <option>IT & Networking</option>
-                        <option>Writing</option>
-                        <option>Translation</option>
-                        <option>Sales & Marketing</option>
+                        <option>Математик</option>
+                        <option>Физик</option>
+                        <option>Физрук</option>
                     </select>
                 </div>
 
                 <!-- Keywords -->
                 <div class="sidebar-widget">
-                    <h3>Keywords</h3>
+                    <h3>Инфа</h3>
                     <div class="keywords-container">
                         <div class="keyword-input-container">
-                            <input type="text" class="keyword-input" placeholder="e.g. task title" />
+                            <input type="text" class="keyword-input" placeholder="добавьте сюда" />
                             <button class="keyword-input-button ripple-effect"><i class="icon-material-outline-add"></i></button>
                         </div>
                         <div class="keywords-list"><!-- keywords go here --></div>
@@ -52,7 +45,7 @@
 
                 <!-- Hourly Rate -->
                 <div class="sidebar-widget">
-                    <h3>Hourly Rate</h3>
+                    <h3>Берет за час</h3>
                     <div class="margin-top-55"></div>
 
                     <!-- Range Slider -->
@@ -61,7 +54,7 @@
 
                 <!-- Tags -->
                 <div class="sidebar-widget">
-                    <h3>Skills</h3>
+                    <h3>Скиллы</h3>
 
                     <div class="tags-container">
                         <div class="tag">
@@ -98,7 +91,7 @@
                     <!-- More Skills -->
                     <div class="keywords-container margin-top-20">
                         <div class="keyword-input-container">
-                            <input type="text" class="keyword-input" placeholder="add more skills" />
+                            <input type="text" class="keyword-input" placeholder="добавь сюда" />
                             <button class="keyword-input-button ripple-effect"><i class="icon-material-outline-add"></i></button>
                         </div>
                         <div class="keywords-list"><!-- keywords go here --></div>
@@ -113,7 +106,7 @@
             <!-- Sidebar Container / End -->
             <!-- Search Button -->
             <div class="sidebar-search-button-container">
-                <button class="button ripple-effect">Search</button>
+                <button class="button ripple-effect">Поиск</button>
             </div>
             <!-- Search Button / End-->
 
@@ -124,20 +117,20 @@
     <div class="full-page-content-container" data-simplebar>
         <div class="full-page-content-inner">
 
-            <h3 class="page-title">Search Results</h3>
+            <h3 class="page-title">Результаты поиска</h3>
 
             <div class="notify-box margin-top-15">
                 <div class="switch-container">
-                    <label class="switch"><input type="checkbox"><span class="switch-button"></span><span class="switch-text">Turn on email alerts for this search</span></label>
+                    <label class="switch"><input type="checkbox"><span class="switch-button"></span><span class="switch-text">Включить уведомление по почте для новых задач</span></label>
                 </div>
 
                 <div class="sort-by">
-                    <span>Sort by:</span>
+                    <span>Сортировать по:</span>
                     <select class="selectpicker hide-tick">
-                        <option>Relevance</option>
-                        <option>Newest</option>
-                        <option>Oldest</option>
-                        <option>Random</option>
+                        <option>Рейтингу</option>
+                        <option>Новизне</option>
+                        <option>Рандомно</option>
+                        <option>Старости</option>
                     </select>
                 </div>
             </div>
@@ -179,9 +172,9 @@
                     <div class="freelancer-details">
                         <div class="freelancer-details-list">
                             <ul>
-                                <li>Location <strong><i class="icon-material-outline-location-on"></i> London</strong></li>
-                                <li>Rate <strong>$60 / hr</strong></li>
-                                <li>Job Success <strong>95%</strong></li>
+                                <li>Живет <strong><i class="icon-material-outline-location-on"></i> Москва</strong></li>
+                                <li>Рейтинг <strong>$60 / hr</strong></li>
+                                <li>Выполнено <strong>95%</strong></li>
                             </ul>
                         </div>
                         <a href=@Url.Action("Details", new { userName = i.Username }) class="button button-sliding-icon ripple-effect">Посмотреть профиль <i class="icon-material-outline-arrow-right-alt"></i></a>
