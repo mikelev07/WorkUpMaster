@@ -1,0 +1,261 @@
+﻿@model HelpMe.Models.Wallet
+
+@using Microsoft.AspNet.Identity
+
+
+@{
+    Layout = "~/Views/Shared/_LayoutDash.cshtml";
+}
+
+@{
+    ViewBag.Title = "Рабочая доска";
+}
+
+<!-- Dashboard Sidebar
+================================================== -->
+<!-- Dashboard Sidebar / End -->
+<!-- Dashboard Content
+================================================== -->
+<div class="dashboard-content-container" data-simplebar>
+    <div class="dashboard-content-inner">
+
+        <!-- Dashboard Headline -->
+        <div class="dashboard-headline">
+            <h3>Мой баланс - <b style="color:#36bd78">@if (Model != null) { @Model.Summ } else  { <text>0</text> } руб.</b></h3>
+
+<span>Пополняйте ваш счет для оплаты заказов!</span>
+
+
+<!-- Breadcrumbs -->
+
+<nav id="breadcrumbs" class="dark">
+                <ul>
+                    <li><a href="#">Рабочая доска</a></li>
+                    <li>Личный счет</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Fun Facts Container -->
+        <div class="fun-facts-container">
+            <div class="fun-fact" data-fun-fact-color="#36bd78">
+                <div class="fun-fact-text">
+                    <span>Пополнение счета</span>
+                    <a href="/Wallet/AddSumm" class="button full-width margin-top-20">Пополнить</a>
+                </div>
+                <div class="fun-fact-icon"><i class="icon-material-outline-add"></i></div>
+            </div>
+            <div class="fun-fact" data-fun-fact-color="#36bd78">
+                <div class="fun-fact-text">
+                    <span>Вывод средств на карту</span>
+                    <a href="" class="button full-width margin-top-20">Вывести</a>
+                </div>
+                <div class="fun-fact-icon"><i class="icon-material-outline-input"></i></div>
+            </div>
+            <div class="fun-fact" data-fun-fact-color="#36bd78">
+                <div class="fun-fact-text">
+                    <span>Перевод пользователям</span>
+                    <a href="" class="button full-width margin-top-20">Перевести</a>
+                </div>
+                <div class="fun-fact-icon"><i class="icon-material-outline-redo"></i></div>
+            </div>
+
+
+            <!-- Last one has to be hidden below 1600px, sorry :( -->
+            <div class="fun-fact" data-fun-fact-color="#2a41e6">
+                <div class="fun-fact-text">
+                    <span>Просмотров за месяц</span>
+                    <h4>987</h4>
+                </div>
+                <div class="fun-fact-icon"><i class="icon-feather-trending-up"></i></div>
+            </div>
+        </div>
+
+     
+        <!-- Row / End -->
+        <!-- Row -->
+        <div class="row">
+
+            <!-- Dashboard Box -->
+            <div class="col-xl-6">
+                <div class="dashboard-box">
+                    <div class="headline">
+                        <h3><i class="icon-material-baseline-notifications-none"></i> Уведомления</h3>
+                        <button class="mark-as-read ripple-effect-dark" data-tippy-placement="left" title="Отметить как прочитанное">
+                            <i class="icon-feather-check-square"></i>
+                        </button>
+                    </div>
+                    <div class="content">
+                        <ul class="dashboard-box-list">
+                            <li>
+                                <span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+                                <span class="notification-text">
+                                    <strong>Магамед Магамедович</strong> разместил заказ <a href="#">Решить быстро и не дорого</a>
+                                </span>
+                                <!-- Buttons -->
+                                <div class="buttons-to-right">
+                                    <a href="#" class="button ripple-effect ico" title="Пометить как прочитанное" data-tippy-placement="left"><i class="icon-feather-check-square"></i></a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="notification-icon"><i class=" icon-material-outline-gavel"></i></span>
+                                <span class="notification-text">
+                                    <strong>Гилберт анусов</strong> разместил задачу <a href="#">iOS App Development</a> project
+                                </span>
+                                <!-- Buttons -->
+                                <div class="buttons-to-right">
+                                    <a href="#" class="button ripple-effect ico" title="Пометить как прочитанное" data-tippy-placement="left"><i class="icon-feather-check-square"></i></a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="notification-icon"><i class="icon-material-outline-autorenew"></i></span>
+                                <span class="notification-text">
+                                    Ваша работа принята <a href="#">Логотип для шаурмяшной</a>
+                                </span>
+                                <!-- Buttons -->
+                                <div class="buttons-to-right">
+                                    <a href="#" class="button ripple-effect ico" title="Пометить как прочитанное" data-tippy-placement="left"><i class="icon-feather-check-square"></i></a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+                                <span class="notification-text">
+                                    <strong>Андрей</strong> принял в работу <a href="#">Задача по математике</a>
+                                </span>
+                                <!-- Buttons -->
+                                <div class="buttons-to-right">
+                                    <a href="#" class="button ripple-effect ico" title="Пометить как прочитанное" data-tippy-placement="left"><i class="icon-feather-check-square"></i></a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="notification-icon"><i class="icon-material-outline-rate-review"></i></span>
+                                <span class="notification-text">
+                                    <strong>Давид</strong> указал, что вы <span class="star-rating no-stars" data-rating="5.0"></span> понижены в рейтинге <a href="#">Логотип</a>
+                                </span>
+                                <!-- Buttons -->
+                                <div class="buttons-to-right">
+                                    <a href="#" class="button ripple-effect ico" title="Пометить как прочитанное" data-tippy-placement="left"><i class="icon-feather-check-square"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dashboard Box -->
+            <div class="col-xl-6">
+                <div class="dashboard-box">
+                    <div class="headline">
+                        <h3><i class="icon-material-outline-assignment"></i>Статус заказов</h3>
+                    </div>
+                    <div class="content">
+                        <ul class="dashboard-box-list">
+                            <li>
+                                <div class="invoice-list-item">
+                                    <strong>Заказ №1</strong>
+                                    <ul>
+                                        <li><span class="unpaid">Неоплаченные</span></li>
+                                        <li>Заказ номер: #326</li>
+                                        <li>Дата: 12/08/2018</li>
+                                    </ul>
+                                </div>
+                                <!-- Buttons -->
+                                <div class="buttons-to-right">
+                                    <a href="pages-checkout-page.html" class="button">Завершить оплату</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="invoice-list-item">
+                                    <strong>Заказ №2</strong>
+                                    <ul>
+                                        <li><span class="paid">Оплачено</span></li>
+                                        <li>Заказ: #264</li>
+                                        <li>Дата: 10/07/2018</li>
+                                    </ul>
+                                </div>
+                                <!-- Buttons -->
+                                <div class="buttons-to-right">
+                                    <a href="pages-invoice-template.html" class="button gray">Посмотреть инвойс</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="invoice-list-item">
+                                    <strong>Заказ №3</strong>
+                                    <ul>
+                                        <li><span class="paid">Оплачено</span></li>
+                                        <li>Заказ: #211</li>
+                                        <li>Дата: 12/06/2018</li>
+                                    </ul>
+                                </div>
+                                <!-- Buttons -->
+                                <div class="buttons-to-right">
+                                    <a href="pages-invoice-template.html" class="button gray">Посмотреть инвойс</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="invoice-list-item">
+                                    <strong>Заказ №4</strong>
+                                    <ul>
+                                        <li><span class="paid">Оплачено</span></li>
+                                        <li>Заказ: #179</li>
+                                        <li>Дата: 06/05/2018</li>
+                                    </ul>
+                                </div>
+                                <!-- Buttons -->
+                                <div class="buttons-to-right">
+                                    <a href="pages-invoice-template.html" class="button gray">Посмотреть инвойс</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Row / End -->
+        <!-- Footer -->
+        <div class="dashboard-footer-spacer"></div>
+        <div class="small-footer margin-top-15">
+            <div class="small-footer-copyrights">
+                © 2018 <strong>ВоркАп</strong>. С правами все в порядке.
+            </div>
+            <ul class="footer-social-links">
+                <li>
+                    <a href="#" title="Facebook" data-tippy-placement="top">
+                        <i class="icon-brand-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Twitter" data-tippy-placement="top">
+                        <i class="icon-brand-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Google Plus" data-tippy-placement="top">
+                        <i class="icon-brand-google-plus-g"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="LinkedIn" data-tippy-placement="top">
+                        <i class="icon-brand-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <!-- Footer / End -->
+
+    </div>
+</div>
+<!-- Dashboard Content / End -->
+<!-- Dashboard Container / End -->
+<!-- Apply for a job popup
+================================================== -->
+
+<!-- Apply for a job popup / End -->
+@section Scripts {
+    <!-- Chart.js // documentation: http://www.chartjs.org/docs/latest/ -->
+    <script src="~/Scripts/Custom/chart.min.js"></script>
+   
+  
+}

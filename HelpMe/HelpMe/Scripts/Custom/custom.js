@@ -3,7 +3,15 @@
 "use strict";
 
 $(document).ready(function(){
-	
+
+  
+        $("#Summ").bind('keyup', function (event) { repeat(); });
+   
+
+    function repeat() {
+
+        $("#itog").text($("#Summ").val());
+    }
 	/*--------------------------------------------------*/
 	/*  Mobile Menu - mmenu.js
 	/*--------------------------------------------------*/

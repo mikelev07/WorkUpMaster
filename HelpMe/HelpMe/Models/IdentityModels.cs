@@ -32,12 +32,13 @@ namespace HelpMe.Models
         public string Description { get; set; }
         public string ConnectionId { get; set; } // для SignalR
         //public UserProfile Profile { get; set; }
-       
+        
         public ICollection<CustomViewModel> Customs { get; set; }
         public ICollection<CommentViewModel> Comments { get; set; }
         public ICollection<MessageStoreViewModel> Messages { get; set; }
         public ICollection<Review> Reviews { get; set; }
         public ICollection<Note> Notes { get; set; }
+        public ICollection<Wallet> Wallets { get; set; } // создаем универсальную коллекцию
 
         public User()
         {
@@ -46,6 +47,7 @@ namespace HelpMe.Models
             Messages = new List<MessageStoreViewModel>();
             Reviews = new List<Review>();
             Notes = new List<Note>();
+            Wallets = new List<Wallet>(); // добавляем список кошельков
         }
       
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<User> manager)
@@ -79,6 +81,7 @@ namespace HelpMe.Models
         public DbSet<TaskCategory> TaskCategories { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Note> Notes { get; set; }
+        public DbSet<Wallet> Wallets { get; set; } // коллекция сущностей типа Wallet
         // public DbSet<UserProfile> UserProfiles { get; set; }
 
         public static ApplicationDbContext Create()

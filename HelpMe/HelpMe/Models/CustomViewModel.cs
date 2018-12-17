@@ -39,6 +39,8 @@ namespace HelpMe.Models
         [ForeignKey("ExecutorId")]
         public virtual User Executor { get; set; }
 
+        public int ExecutorPrice { get; set; }
+
         public ICollection<CommentViewModel> Comments { get; set; }
 
         [NotMapped]
@@ -85,7 +87,7 @@ namespace HelpMe.Models
         Close,
         [Display(Name = "В разработке")]
         Progress,
-        [Display(Name = "After Accepting Quote")]
+        [Display(Name = "Выполняется исполнителем")]
         Check
     }
 
