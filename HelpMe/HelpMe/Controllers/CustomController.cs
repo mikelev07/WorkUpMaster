@@ -44,22 +44,30 @@ namespace HelpMe.Controllers
                                                               .Include(c => c.User)
                                                               .FirstOrDefaultAsync(c => c.Id == id);
 
-
-            string myId = User.Identity.GetUserId();
-            Wallet wallet = db.Wallets.Where(x => x.UserId == myId).FirstOrDefault();
-
-            if (wallet.Summ - customViewModel.ExecutorPrice > 0)
+            if (customViewModel.AttachStatus != AttachStatus.Purchased)
             {
-                wallet.Summ -= customViewModel.ExecutorPrice;
-            } else
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+
+                string myId = User.Identity.GetUserId();
+                Wallet wallet = db.Wallets.Where(x => x.UserId == myId).FirstOrDefault();
+
+                if (wallet.Summ - customViewModel.ExecutorPrice > 0)
+                {
+                    wallet.Summ -= customViewModel.ExecutorPrice;
+                }
+                else
+                {
+                    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                }
+                customViewModel.AttachStatus = AttachStatus.Purchased;
+                customViewModel.Status = CustomStatus.CheckCustom;
+                db.Entry(wallet).State = EntityState.Modified;
+                await db.SaveChangesAsync();
+
+                return RedirectToAction("Details", "Custom", new { id = customViewModel.Id });
+            } else { 
+                ViewBag.DangerText = "Решение куплено!";
             }
-
-            db.Entry(wallet).State = EntityState.Modified;
-            await db.SaveChangesAsync();
-
-            return RedirectToAction("Details", "Custom", new { id = customViewModel.Id }); ;
+            return RedirectToAction("Details", "Custom", new { id = customViewModel.Id });
 
         }
 
@@ -128,6 +136,7 @@ namespace HelpMe.Controllers
                     db.Entry(customViewModel).State = EntityState.Modified;
                     customViewModel.FilePath = path;
                     customViewModel.Status = CustomStatus.Check; // заявка на проверке
+                    customViewModel.AttachStatus = AttachStatus.NotPurchased; // решение не куплено
                     await db.SaveChangesAsync();
                 }
             }

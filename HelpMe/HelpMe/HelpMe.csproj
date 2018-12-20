@@ -255,6 +255,10 @@
     <Compile Include="Migrations\201812171829557_updateCustomClassAddPrice.Designer.cs">
       <DependentUpon>201812171829557_updateCustomClassAddPrice.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812202142224_updateStatus.cs" />
+    <Compile Include="Migrations\201812202142224_updateStatus.Designer.cs">
+      <DependentUpon>201812202142224_updateStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationRoleManager.cs" />
@@ -520,6 +524,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812171829557_updateCustomClassAddPrice.resx">
       <DependentUpon>201812171829557_updateCustomClassAddPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812202142224_updateStatus.resx">
+      <DependentUpon>201812202142224_updateStatus.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

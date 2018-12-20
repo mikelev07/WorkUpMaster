@@ -17,6 +17,7 @@ namespace HelpMe.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public CustomStatus Status { get; set; }
+        public AttachStatus AttachStatus { get; set; }
         public string FilePath { get; set; }
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
@@ -79,6 +80,15 @@ namespace HelpMe.Models
         public PageInfo PageInfo { get; set; }
     }
 
+    public enum AttachStatus
+    {
+        [Display(Name = "Работа куплена")]
+        Purchased,
+        [Display(Name = "Не куплена")]
+        NotPurchased
+    }
+
+
     public enum CustomStatus
     {
         [Display(Name = "Открытая заявка")]
@@ -88,7 +98,9 @@ namespace HelpMe.Models
         [Display(Name = "В разработке")]
         Progress,
         [Display(Name = "Выполняется исполнителем")]
-        Check
+        Check,
+        [Display(Name = "Проверяется заказчиком")]
+        CheckCustom
     }
 
   

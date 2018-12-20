@@ -70,7 +70,6 @@
                         <input type="submit" value="Загрузить" class="button ripple-effect margin-top-10" />
                     }
                 }
-
             </div>
             @if (Model.FilePath != null && Model.UserId == User.Identity.GetUserId())
             {
@@ -85,9 +84,19 @@
                     <h3>Вложения исполнителя</h3>
                     <div class="attachments-container">
                         <a href="@Url.Action("GetFile", "Custom", new { path = Model.FilePath })" class="attachment-box ripple-effect"><span>Файл исполнителя</span><i>PDF</i></a>
-                    </div>
-                    <a href="@Url.Action("Buy", "Custom",new { id = Model.Id })" class="button ripple-effect margin-top-18"><i class="icon-material-outline-monetization-on"></i> Купить решение </a>
-
+                    </div> <br />
+                    @ViewBag.DangerText
+                    @if (Model.AttachStatus == HelpMe.Models.AttachStatus.Purchased)
+                    {
+                        <div class="notification notice closeable">
+                            <p>Решение куплено</p>
+                            <a class="close" href="#"></a>
+                        </div>
+                    } 
+                    @if (Model.UserId == User.Identity.GetUserId())
+                    {
+                        <a style="@(Model.AttachStatus == HelpMe.Models.AttachStatus.Purchased ? "display:none" : "")" id="buyElement" href="@Url.Action("Buy", "Custom", new { id = Model.Id })" class="button ripple-effect margin-top-18"><i class="icon-material-outline-monetization-on"></i> Купить решение </a>
+                    }
                 </div>
             }
             <div class="single-page-section">
