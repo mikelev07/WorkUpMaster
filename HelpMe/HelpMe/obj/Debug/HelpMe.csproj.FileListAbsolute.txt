@@ -930,3 +930,5 @@ C:\Users\slobodan\Desktop\WorkUp\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.Co
 C:\Users\slobodan\Desktop\WorkUp\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.csproj.CopyComplete
 C:\Users\slobodan\Desktop\WorkUp\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.dll
 C:\Users\slobodan\Desktop\WorkUp\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.pdb
+C:\Users\slobodan\Desktop\WorkUp\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.addWalletClass.resources
+C:\Users\slobodan\Desktop\WorkUp\HelpMe\HelpMe\HelpMe\obj\Debug\HelpMe.Migrations.updateCustomClassAddPrice.resources

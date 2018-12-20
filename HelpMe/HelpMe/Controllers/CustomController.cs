@@ -30,6 +30,39 @@ namespace HelpMe.Controllers
             return View(ivm);
         }
 
+        public async Task<ActionResult> Buy(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            // optimaize
+            CustomViewModel customViewModel = await db.Customs.Include(c => c.Comments)
+                                                              .Include(c => c.CategoryTask)
+                                                              .Include(c => c.TypeTask)
+                                                              .Include(c => c.User)
+                                                              .FirstOrDefaultAsync(c => c.Id == id);
+
+
+            string myId = User.Identity.GetUserId();
+            Wallet wallet = db.Wallets.Where(x => x.UserId == myId).FirstOrDefault();
+
+            if (wallet.Summ - customViewModel.ExecutorPrice > 0)
+            {
+                wallet.Summ -= customViewModel.ExecutorPrice;
+            } else
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            db.Entry(wallet).State = EntityState.Modified;
+            await db.SaveChangesAsync();
+
+            return RedirectToAction("Details", "Custom", new { id = customViewModel.Id }); ;
+
+        }
+
         public async Task<ActionResult> ChooseExecutor(int? id, string userId)
         {
             if (id == null && userId == null)
@@ -38,11 +71,14 @@ namespace HelpMe.Controllers
             }
 
             CustomViewModel customViewModel = await db.Customs.Include(c => c.Comments).Include(c => c.User).FirstOrDefaultAsync(c => c.Id == id);
-            db.Entry(customViewModel).State = EntityState.Modified;
+           
 
             if (customViewModel.UserId != customViewModel.ExecutorId)
             {
                 customViewModel.ExecutorId = userId;
+                CommentViewModel comment = await db.Comments.Include(c => c.CustomViewModel).Include(c => User).FirstOrDefaultAsync(c => c.UserId == customViewModel.ExecutorId);
+                db.Entry(customViewModel).State = EntityState.Modified;
+                customViewModel.ExecutorPrice = comment.OfferPrice;
                 customViewModel.Status = CustomStatus.Progress; // заявка выполняется
             }
            

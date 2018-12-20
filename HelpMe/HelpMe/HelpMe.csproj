@@ -231,6 +231,7 @@
     <Compile Include="Controllers\RoleController.cs" />
     <Compile Include="Controllers\TaskCategoriesController.cs" />
     <Compile Include="Controllers\TypeCustomController.cs" />
+    <Compile Include="Controllers\WalletController.cs" />
     <Compile Include="Helpers\HelperExtensions.cs" />
     <Compile Include="Filters\UserExceptionAttribute.cs" />
     <Compile Include="Global.asax.cs">
@@ -246,6 +247,14 @@
     <Compile Include="Migrations\201810120857437_MigraMessage.Designer.cs">
       <DependentUpon>201810120857437_MigraMessage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812171618146_addWalletClass.cs" />
+    <Compile Include="Migrations\201812171618146_addWalletClass.Designer.cs">
+      <DependentUpon>201812171618146_addWalletClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812171829557_updateCustomClassAddPrice.cs" />
+    <Compile Include="Migrations\201812171829557_updateCustomClassAddPrice.Designer.cs">
+      <DependentUpon>201812171829557_updateCustomClassAddPrice.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationRoleManager.cs" />
@@ -260,6 +269,7 @@
     <Compile Include="Models\Review.cs" />
     <Compile Include="Models\RoleViewModel.cs" />
     <Compile Include="Models\TypeCustomViewModel.cs" />
+    <Compile Include="Models\Wallet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -474,6 +484,12 @@
     <Content Include="Views\Note\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutChat.cshtml" />
     <Content Include="Views\Chat\LoadHistory.cshtml" />
+    <Content Include="Views\Wallet\Create.cshtml" />
+    <Content Include="Views\Wallet\Delete.cshtml" />
+    <Content Include="Views\Wallet\Details.cshtml" />
+    <Content Include="Views\Wallet\Edit.cshtml" />
+    <Content Include="Views\Wallet\Index.cshtml" />
+    <Content Include="Views\Wallet\AddSumm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -498,6 +514,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810120857437_MigraMessage.resx">
       <DependentUpon>201810120857437_MigraMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171618146_addWalletClass.resx">
+      <DependentUpon>201812171618146_addWalletClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812171829557_updateCustomClassAddPrice.resx">
+      <DependentUpon>201812171829557_updateCustomClassAddPrice.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

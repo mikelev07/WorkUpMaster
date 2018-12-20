@@ -46,7 +46,7 @@ namespace HelpMe.Models
         [NotMapped]
         public TimeSpan TotalHrs
         {
-             get
+            get
             { 
                 return EndingDate - DateTime.Now;
             }
