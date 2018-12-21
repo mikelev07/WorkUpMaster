@@ -1,0 +1,13 @@
+﻿@Model IEnumerable<HelpMe.Models.Note>
+    @{
+        ViewBag.Title = "ShowAll";
+    }
+
+    <h2>Таблица заметок</h2>
+    @foreach (var i in Model)
+    {
+        @Html.ActionLink("Details", "Details", new { id = i.Id })
+        <div>@i.Description</div><br />
+        <div>@i.User.UserName</div><br/>
+        @Html.ActionLink("Delete Fucking Note", "Delete", new { id = i.Id })
+    }
