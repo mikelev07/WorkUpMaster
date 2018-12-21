@@ -71,10 +71,20 @@
                     }
                 }
                 <br />
+
                 <div>
+                    <input type="hidden" name="CustomViewModelId" id="CustomViewModelId" value="@Model.Id" />
                     <input type="file" name="upload" id="uploadFile" /><br />
+                    <input type="text" name="ExecutorPrice" id="ExecutorPrice" />
                     <button id="submit">Загрузить</button>
                 </div>
+                
+                @foreach (var i in Model.Attachments)
+                {
+                    <div class="attachments-container">
+                        <a href="@Url.Action("GetFile", "Custom", new { path = i.AttachFilePath })" class="attachment-box ripple-effect"><span>Файл исполнителя</span><i>PDF</i></a>
+                    </div>
+                }
             </div>
             @if (Model.FilePath != null && Model.UserId == User.Identity.GetUserId())
             {
@@ -589,14 +599,19 @@
 
     <script>
            $('#submit').on('click', function (e) {
-        e.preventDefault();
+               e.preventDefault();
+               var c = document.getElementById('CustomViewModelId').value;
+               var d = document.getElementById('ExecutorPrice').value;
         var files = document.getElementById('uploadFile').files;
         if (files.length > 0) {
             if (window.FormData !== undefined) {
                 var data = new FormData();
                 for (var x = 0; x < files.length; x++) {
                     data.append("file" + x, files[x]);
+                    data.append('CustomViewModelId', c);
+                    data.append('ExecutorPrice', d)
                 }
+                
  
                 $.ajax({
                     type: "POST",

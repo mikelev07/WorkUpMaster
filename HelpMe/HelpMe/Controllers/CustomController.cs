@@ -31,17 +31,33 @@ namespace HelpMe.Controllers
         }
 
         [HttpPost]
-        public JsonResult Upload()
+        public async Task<JsonResult> Upload()
         {
+          
+
+            AttachModel attach = new AttachModel();
+
             foreach (string file in Request.Files)
             {
                 var upload = Request.Files[file];
+                
                 if (upload != null)
                 {
                     // получаем имя файла
                     string fileName = System.IO.Path.GetFileName(upload.FileName);
                     // сохраняем файл в папку Files в проекте
                     upload.SaveAs(Server.MapPath("~/Files/" + fileName));
+                    string path = Server.MapPath("~/Files/" + fileName);
+                    // сохраняем файл в папку Files в проекте
+                    upload.SaveAs(path);
+                    attach.Id = 1;
+                    attach.ExecutorPrice = Convert.ToInt32(Request.Form["ExecutorPrice"]);
+                    attach.CustomViewModelId = Convert.ToInt32(Request.Form["CustomViewModelId"]);
+                    attach.AttachFilePath = path;
+                    attach.UserId = User.Identity.GetUserId(); 
+                    db.Attachments.Add(attach);
+                   
+                    await db.SaveChangesAsync();
                 }
             }
             return Json("Файл загружен");
@@ -217,6 +233,7 @@ namespace HelpMe.Controllers
                                                               .Include(c => c.CategoryTask)
                                                               .Include(c => c.TypeTask)
                                                               .Include(c => c.User)
+                                                              .Include(c => c.Attachments)
                                                               .FirstOrDefaultAsync(c => c.Id == id);
 
             if (customViewModel == null)

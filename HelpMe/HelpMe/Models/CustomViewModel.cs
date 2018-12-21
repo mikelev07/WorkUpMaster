@@ -43,6 +43,7 @@ namespace HelpMe.Models
         public int ExecutorPrice { get; set; }
 
         public ICollection<CommentViewModel> Comments { get; set; }
+        public ICollection<AttachModel> Attachments { get; set; }
 
         [NotMapped]
         public TimeSpan TotalHrs
@@ -56,7 +57,21 @@ namespace HelpMe.Models
         public CustomViewModel()
         {
             Comments = new List<CommentViewModel>();
+            Attachments = new List<AttachModel>();
         } 
+    }
+
+    public class AttachModel
+    {
+        public int Id { get; set; }
+        public int ExecutorPrice { get; set; }
+        public int? CustomViewModelId { get; set; }
+        public CustomViewModel CustomViewModel { get; set; }
+        public string UserId { get; set; }
+        public virtual User User { get; set; }
+        public string AttachFilePath { get; set; }
+        [NotMapped]
+        public HttpPostedFileBase AttachFile { get; set; }
     }
 
     public class PageInfo
