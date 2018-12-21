@@ -23,6 +23,12 @@ namespace HelpMe.Controllers
             return View(await notes.ToListAsync());
         }
 
+        public async Task<ActionResult> ShowAll()
+        {
+            var notes = db.Notes;
+            return View(await notes.ToListAsync());
+        }
+
         // GET: Note/Details/5
         public async Task<ActionResult> Details(int? id)
         {
